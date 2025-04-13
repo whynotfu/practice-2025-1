@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+body{
+    font-family: "Tektur", sans-serif;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+/* NAV BAR */
+
+.navbar{
+    background-color: aqua;
+
+    width: 100%;
+}
+
+.navb_elem{
+    display: inline;
+    float: left;
+    display: block;
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+
+}
+
+.mainBody{
+    background-color: blueviolet;
+    height: 300px;
+    width: 100%;
+}
+.footer{
+    background-color: brown;
+    height: 300px;
+    width: 100%;
+}
+
