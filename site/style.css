@@ -13,14 +13,17 @@ a{
 
 .navbar{
     background-color: aqua;
-
+    position: sticky;
+    top: 0;
     width: 100%;
+    overflow: hidden;
+    
 }
 
 .navb_elem{
+
+    float:left;
     display: inline;
-    float: left;
-    display: block;
     width: 23%;
     padding: 1%;
     text-align: center;
