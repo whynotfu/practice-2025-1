@@ -1,17 +1,11 @@
-GPPPARMS = -m32 
-ASPARAMS = --32
-LDPARAMS = -melf_i386
+CC = gcc
+CFLAGS = -Wall -I. $(shell pkg-config --cflags sdl2)
+LDFLAGS = $(shell pkg-config --libs sdl2)
 
-objects = loader.o kernel.o
+all: cinoop.exe
 
-%.o: %.cpp
-		g++ $(GPPPARMS) -o $@ -c $<
+cinoop.exe: main.o cpu.o
+	$(CC) -o $@ $^ $(LDFLAGS)
 
-%.o: %.s
-		as $(ASPARAMS) -o $@ $<
-
-mykernel.bin: linker.ld $(objects)
-	ld $(LDPARAMS) -T $, -o $@ $(objects)
-
-install: mykernel.bin
-	sudo cp $< /boot/mykernel.bin
+clean:
+	rm -f *.o *.exe
