@@ -1,43 +1,108 @@
-*{
-    margin: 0px;
+* {
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-body{
+
+body {
     font-family: "Tektur", sans-serif;
+    line-height: 1.6;
+    background-color: #1a1a1a;
+    color: #fff;
 }
-a{
-    color: black;
+
+/* ===============================
+   ССЫЛКИ
+   =============================== */
+a {
+    color: #00ffff;
     text-decoration: none;
 }
-/* NAV BAR */
 
-.navbar{
-    background-color: aqua;
+a:hover {
+    text-decoration: underline;
+}
+
+/* ===============================
+   НАВИГАЦИОННОЕ МЕНЮ
+   =============================== */
+.navbar {
+    background-color: #00bcd4;
     position: sticky;
     top: 0;
     width: 100%;
-    overflow: hidden;
-    
+    z-index: 1000;
 }
 
-.navb_elem{
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
 
-    float:left;
-    display: inline;
-    width: 23%;
-    padding: 1%;
+.navb_elem {
+    margin: 0 15px;
+}
+
+.navb_elem a {
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.navb_elem a:hover {
+    background-color: #008c9e;
+}
+
+/* ===============================
+   ГЛАВНЫЙ КОНТЕНТ (Hero СЕКЦИЯ)
+   =============================== */
+.mainBody {
+    padding: 50px 20px;
     text-align: center;
-
 }
 
-.mainBody{
-    background-color: blueviolet;
-    height: 3000px;
-    width: 100%;
-}
-.footer{
-    background-color: brown;
-    height: 300px;
-    width: 100%;
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
 }
 
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn {
+    background-color: #00bcd4;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #008c9e;
+}
+
+/* ===============================
+   ФУТЕР
+   =============================== */
+.footer {
+    background-color: #333;
+    color: #ccc;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
