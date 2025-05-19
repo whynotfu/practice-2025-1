@@ -95,6 +95,30 @@ a:hover {
 .btn:hover {
     background-color: #008c9e;
 }
+.about-section {
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+}
+
+.about-section h1, .about-section h2 {
+    margin-bottom: 20px;
+    color: #00ffff;
+}
+
+.about-section p {
+    margin-bottom: 20px;
+}
+
+.about-section ul {
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+.about-section li {
+    margin-bottom: 10px;
+}
+
 
 /* ===============================
    ФУТЕР
