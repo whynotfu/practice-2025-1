@@ -5,11 +5,11 @@
 |-----------------------------------------------------------------------------|
 | 📁 **Документации**                                                               |
 |  [docs/](https://github.com/whynotfu/practice-2025-1/blob/main/README.md) |
-|  ├──[***mainReport.docx***](https://github.com/whynotfu/practice-2025-1/docs/mainReport.docx) |
-|  └──[***mainReport.pdf***](https://github.com/whynotfu/practice-2025-1/docs/mainReport.pdf) |
+|  ├──[***mainReport.docx***](https://github.com/whynotfu/practice-2025-1/blob/main/docs/mainReport.docx) |
+|  └──[***mainReport.pdf***](https://github.com/whynotfu/practice-2025-1/blob/main/docs/mainReport.pdf) |
 |  [reports/](https://github.com/whynotfu/practice-2025-1/tree/main/reports)   |
-|  ├──[***ractice_report_orgPartner.md***](https://github.com/whynotfu/practice-2025-1/blob/main/reports/practice_report_orgPartner.md) |
-|  ├──[***ractice_report_tetris.md***](https://github.com/whynotfu/practice-2025-1/blob/main/reports/practice_report_tetris.md)|
-|  ├──[***ractice_report_tetris.md***](https://github.com/whynotfu/practice-2025-1/blob/main/reports/practice_report_tetris.md)|
-|  └──[***final_report.md***](https://github.com/whynotfu/practice-2025-1/blob/main/reports/practice_report_tetris.md)|
+|  ├──[***practice_report_orgPartner.md***](https://github.com/whynotfu/practice-2025-1/blob/main/reports/practice_report_orgPartner.md) |
+|  ├──[***practice_report_tetris.md***](https://github.com/whynotfu/practice-2025-1/blob/main/reports/practice_report_tetris.md)|
+|  ├──[***practice_report_tetris.md***](https://github.com/whynotfu/practice-2025-1/blob/main/reports/practice_report_tetris.md)|
+|  └──[***final_report.md***](https://github.com/whynotfu/practice-2025-1/blob/main/reports/final_report.md)|
  
