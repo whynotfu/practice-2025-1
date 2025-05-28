@@ -14,20 +14,20 @@
 
 Вариативная часть задания - написание оконного приложения - видео игры «Тетрис» на языке С 
 
-источник - https://github.com/codecrafters-io/build-your-own-x
-(Game - https://github.com/codecrafters-io/build-your-own-x?tab=readme-ov-file#build-your-own-game)
+источник - [github репозиторий build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)
+(раздел [**Game**](https://github.com/codecrafters-io/build-your-own-x?tab=readme-ov-file#build-your-own-game))
 
-статья - https://brennan.io/2015/06/12/tetris-reimplementation/
+Статья - [**On Tetris and Reimplementation**](https://brennan.io/2015/06/12/tetris-reimplementation/)
 
 ## Ответственный по проектной (учебной) практике
 
-Кулибаба Ирина Викторовна, Инфокогнитивные технологии.
+**Кулибаба Ирина Викторовна**, Инфокогнитивные технологии.
 
 ## Проектная деятельность
 
 Проектная (учебная) практика проводилась в связке с выполнением проекта «***Киберполигон***» по дисциплине «Проектная деятельность».
 
-Гневшев Александр Юрьевич - куратор по проектной деятельности.
+**Гневшев Александр Юрьевич** - куратор по проектной деятельности.
 
 ## Период проведения
 
