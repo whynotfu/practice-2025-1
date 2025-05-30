@@ -68,7 +68,79 @@ a:hover {
     font-size: 3em;
     margin-bottom: 20px;
 }
+.project-info {
+    margin-top: 50px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    color: #eee;
+}
+.project-info {
+    margin-top: 50px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: #222;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
 
+.project-info h2 {
+    color: #00ffff;
+    margin-bottom: 15px;
+    font-size: 2em;
+}
+
+.project-info p {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.project-info h2 {
+    color: #00ffff;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.2em;
+}
+
+.project-info h2 .icon {
+    font-size: 1.2em;
+}
+
+.project-info-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-left: 4px solid #00ffff;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.project-card:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translateY(-5px);
+}
+
+.project-card h3 {
+    color: #00ffff;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 1em;
+    line-height: 1.4;
+}
 .hero p {
     font-size: 1.5em;
     margin-bottom: 30px;
@@ -118,7 +190,205 @@ a:hover {
 .about-section li {
     margin-bottom: 10px;
 }
+.about-section {
+    max-width: 1000px;
+    margin: 50px auto;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    color: #eee;
+}
 
+.about-section h1 {
+    text-align: center;
+    color: #00ffff;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+.about-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.about-card {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-left: 4px solid #00ffff;
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.about-card:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translateY(-5px);
+}
+
+.about-card h2 {
+    color: #00ffff;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+}
+
+.about-card ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.about-card li {
+    margin-bottom: 8px;
+}
+.participants-section {
+    max-width: 800px;
+    margin: 50px auto;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    color: #eee;
+}
+
+.participants-section h1 {
+    text-align: center;
+    color: #00ffff;
+    margin-bottom: 20px;
+}
+
+.participants-section p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.participants-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.participants-list li {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-left: 4px solid #00ffff;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.participants-list li:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translateY(-3px);
+}
+/* Секция участников */
+.participants-section {
+    max-width: 1000px;
+    margin: 50px auto;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    color: #eee;
+}
+
+.participants-section h1 {
+    text-align: center;
+    color: #00ffff;
+    margin-bottom: 20px;
+}
+
+.participants-section p {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+}
+
+/* Группа участников */
+.group {
+    margin-bottom: 30px;
+}
+
+.group h2 {
+    color: #00ffff;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+    border-left: 4px solid #00ffff;
+    padding-left: 10px;
+}
+
+.group ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.group li {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-left: 4px solid #00ffff;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    padding: 8px 12px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.group li:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translateY(-3px);
+}
+
+.journal-section {
+    max-width: 1000px;
+    margin: 50px auto;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    color: #eee;
+}
+
+.journal-section h1 {
+    text-align: center;
+    color: #00ffff;
+    margin-bottom: 30px;
+}
+
+.journal-post {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.journal-post:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translateY(-5px);
+}
+
+.journal-post img {
+    width: 100%;
+    height: auto;
+    border-bottom: 4px solid #00ffff;
+}
+
+.post-content {
+    padding: 15px;
+}
+
+.post-content h2 {
+    color: #00ffff;
+    margin-bottom: 10px;
+}
+
+.post-content p {
+    line-height: 1.4;
+}
 
 /* ===============================
    ФУТЕР
