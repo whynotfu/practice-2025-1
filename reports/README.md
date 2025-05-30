@@ -18,13 +18,13 @@
 
 --- 
 
-- [Общий отчет практики DOCX](https://github.com/whynotfu/practice-2025-1/blob/main/docs/mainReport.docx)
+- [Общий отчет практики DOCX](https://github.com/whynotfu/practice-2025-1/blob/main/docs/Отчет.docx)
 
 В данном отчет представлена аналогичная информация что и в [отчёте по второй части в формате Markdown](https://github.com/whynotfu/practice-2025-1/blob/main/reports/final_report.md), но помимо этого дополнения связанные с первой частью в более структурироыванном формате **DOCX** 
 
 ---
 
-- [Общий отчет практики PDF](https://github.com/whynotfu/practice-2025-1/blob/main/docs/mainReport.pdf)
+- [Общий отчет практики PDF](https://github.com/whynotfu/practice-2025-1/blob/main/docs/Отчет.pdf)
 Отчет представленный выше в формате **PDF**
 
 
